@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 :root {
-  --gradientColor1: orange;
-  --gradientColor2: #24c4bc;
+  --gradientColor1: #1cbabe;
+  --gradientColor2: #8746e8;
   --gradientColor3: #775df4;
   --grayColor: #f0f4f7;
   --shapeSize: 20px;
@@ -86,7 +86,7 @@ img {
 /*End grid design*/
 /*Start card design*/
 .card {
-  height: 20rem;
+  height: 15em;
   box-shadow: lightgray 0px 0px 10px;
   display: flex;
   flex-direction: column;
@@ -103,10 +103,9 @@ img {
     var(--gradientColor2),
     var(--gradientColor3)
   );
-  height: 100%;
+  flex-grow: 1;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  flex-grow: 1;
 }
 #lowerHalf {
   display: flex;
@@ -147,7 +146,7 @@ img {
 }
 .x {
   line-height: 0px;
-  padding-bottom: 10%;
+  padding-bottom: 8px;
   margin: auto;
 }
 /*End card design*/
@@ -162,19 +161,19 @@ img {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   }
   #upperHalf {
-    width: 40%;
+    width: 140px;
     justify-self: flex-start;
     border-top-left-radius: 5px;
     border-top-right-radius: 0px;
     border-bottom-left-radius: 5px;
   }
   #lowerHalf {
-    flex-grow: 1;
+    flex-shrink: 1;
     justify-self: flex-end;
   }
   #cardTitle {
-    font-size: 18px;
-    width: 180px;
+    font-size: 24px;
+    width: 30vw;
   }
   #cardTag {
     font-size: 12px;
@@ -184,9 +183,6 @@ img {
     width: 5em;
   }
   #plusButton {
-    margin: auto;
-    margin-right: 3%;
-    margin-top: 3%;
   }
   img {
     height: auto;
@@ -197,4 +193,4 @@ img {
     border-bottom-left-radius: 5px;
   }
 }
-/* <div class = "cardChild" id = "upperHalf"> </div> */
+
