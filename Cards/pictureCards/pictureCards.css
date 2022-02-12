@@ -86,7 +86,7 @@ img {
 /*End grid design*/
 /*Start card design*/
 .card {
-  height: 20rem;
+  height: 20em;
   box-shadow: lightgray 0px 0px 10px;
   display: flex;
   flex-direction: column;
@@ -114,7 +114,7 @@ img {
   align-items: flex-start;
 }
 #cardText {
-  width: 80%;
+  width: 100%;
   margin: 10px;
 }
 #cardTag {
@@ -147,7 +147,7 @@ img {
 }
 .x {
   line-height: 0px;
-  padding-bottom: 10%;
+  padding-bottom: 8px;
   margin: auto;
 }
 /*End card design*/
@@ -197,4 +197,4 @@ img {
     border-bottom-left-radius: 5px;
   }
 }
-/* <div class = "cardChild" id = "upperHalf"> </div> */
+
